@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.popup-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.pop-up-component {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.close-button {
+  background-color: transparent;
+  border: none;
+  align-self: flex-end;
+  margin-bottom: 15px;
+  outline: none;
+  cursor: pointer;
+}
+.close-icon {
+  font-size: 20px;
+  font-weight: bold;
+}
